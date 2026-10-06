@@ -1,0 +1,386 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>HEAD Nam Anh — WORK+ Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--f:"Inter",system-ui,sans-serif;--ink:#111827;--txt:#1F2937;--mut:#6B7280;--dim:#9CA3AF;--ln:#E5E7EB;--lns:#F3F4F6;--bg:#fff;--bgs:#F9FAFB;--bl:#2563EB;--bls:#DBEAFE;--bli:#1D4ED8;--or:#F59E0B;--rd:#DC2626;--rds:#FEE2E2;--gn:#16A34A;--gns:#DCFCE7;--cy:#0891B2;--vi:#7C3AED}
+body{margin:0;background:#E9EDF2;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:16px;overflow:hidden}
+.sc{position:relative;width:1440px;height:880px;flex:none}
+.w{width:1440px;height:880px;border-radius:14px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transform-origin:0 0;font:13px/1.35 var(--f);color:var(--txt);-webkit-font-smoothing:antialiased}
+/* chrome */
+.cr{display:flex;align-items:center;gap:7px;height:36px;padding:0 12px;background:#F3F4F6;flex:none}.cr i{width:11px;height:11px;border-radius:50%;flex:none}.cr .u{flex:1;height:26px;border-radius:7px;background:#fff;display:flex;align-items:center;padding:0 12px;font-size:11.5px;color:var(--mut);overflow:hidden;white-space:nowrap}.cr .u b{color:var(--ink)}
+/* topbar */
+.tb{display:flex;align-items:center;height:48px;padding:0 16px;border-bottom:1px solid var(--ln);flex:none}.tb .br{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:var(--ink)}.tb .br .ai{width:26px;height:26px;border-radius:6px;display:grid;place-items:center;font-size:14px;flex:none}.tb .sr{display:flex;align-items:center;gap:8px;height:30px;width:340px;padding:0 12px;margin:0 auto;border-radius:7px;background:var(--bgs);color:var(--mut);font-size:12.5px}.tb .sr kbd{margin-left:auto;font-size:11px;padding:1px 5px;border:1px solid var(--ln);border-radius:4px;color:var(--dim)}.tb .ic{display:flex;align-items:center;gap:12px;color:var(--mut)}.tb .me{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:10px;font-weight:700;background:linear-gradient(135deg,rgb(248,113,113),rgb(185,28,28))}
+/* layout */
+.ap{display:flex;flex:1;min-height:0}
+.sd{width:210px;flex:none;border-right:1px solid var(--ln);padding:10px 8px;display:flex;flex-direction:column;gap:1px}.sd .tt{display:flex;align-items:center;gap:8px;height:34px;padding:0 8px;font-size:14px;font-weight:700;color:var(--ink);margin-bottom:4px}.sd .rw{display:flex;align-items:center;gap:9px;height:30px;padding:0 9px;border-radius:7px;font-size:13px;color:var(--txt);white-space:nowrap;overflow:hidden}.sd .rw.on{background:var(--bl);color:#fff;font-weight:600}.sd .sc2{font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--mut);padding:12px 9px 4px;text-transform:uppercase}.sd .gr{display:flex;align-items:center;gap:9px}.sd .gr .lt{width:18px;height:18px;border-radius:5px;display:grid;place-items:center;font-size:10px;font-weight:700;color:#fff;flex:none}.sd .ft{margin-top:auto;border-top:1px solid var(--lns);padding-top:8px}.sd .ws{display:flex;align-items:center;gap:9px;height:36px;padding:0 9px;font-size:13px;font-weight:600;color:var(--ink)}.sd .ws i{width:22px;height:22px;border-radius:5px;background:#0F172A;color:#fff;display:grid;place-items:center;font-style:normal;font-size:11px;font-weight:700}
+.mn{flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden;background:#fff;position:relative}
+/* shared */
+.av{width:26px;height:26px;border-radius:50%;display:inline-grid;place-items:center;color:#fff;font-weight:700;font-size:10px;flex:none}
+.pl{display:inline-flex;align-items:center;gap:4px;height:22px;padding:0 8px;border-radius:6px;font-size:11.5px;font-weight:600;white-space:nowrap}
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 14px;border-radius:7px;font-size:13px;font-weight:600;border:none;white-space:nowrap}.bt.p{background:var(--bl);color:#fff}.bt.g{background:#fff;border:1px solid var(--ln);color:var(--txt)}.bt.ap2{background:#22A55B;color:#fff}.bt.fw2{background:#fff;border:1px solid var(--bl);color:var(--bl)}.bt.rj2{background:var(--rd);color:#fff}
+.hd{height:52px;display:flex;align-items:center;gap:8px;padding:0 20px;border-bottom:1px solid var(--ln);flex:none;white-space:nowrap;font-size:14px}.hd b{color:var(--ink);font-weight:700}.hd .rt{margin-left:auto;display:flex;gap:8px;align-items:center}
+.tbs{display:flex;align-items:center;height:44px;padding:0 20px;border-bottom:1px solid var(--ln);gap:4px;flex:none;font-size:12.5px}.tbs span{display:inline-flex;align-items:center;gap:5px;height:44px;padding:0 10px;color:var(--mut);font-weight:500;position:relative}.tbs span.on{color:var(--ink);font-weight:600}.tbs span.on::after{content:"";position:absolute;left:4px;right:4px;bottom:-1px;height:2px;background:var(--bl)}.tbs em{padding:1px 7px;border-radius:999px;background:var(--bls);font-size:11px;font-weight:600;color:var(--bli);font-style:normal}.tbs .rt{margin-left:auto;display:flex;gap:8px;align-items:center;font-size:13px;color:var(--txt)}
+.pls{display:inline-flex;gap:2px;padding:3px;border-radius:9px;background:var(--lns);font-size:12.5px}.pls span{padding:4px 10px;border-radius:6px;color:var(--mut);font-weight:500}.pls span.on{background:#fff;color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+/* list rows */
+.rl{flex:1;overflow:hidden}.rl .rr{display:flex;align-items:center;height:64px;padding:0 20px;border-bottom:1px solid var(--lns);gap:10px}.rl .rr .inf{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}.rl .rr .inf b{font-size:14px;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rl .rr .inf b code{font-family:ui-monospace,Consolas,monospace;font-size:11px;font-weight:500;color:var(--mut);margin-left:6px}.rl .rr .inf span{font-size:12px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rl .rr .who{display:flex;align-items:center;gap:6px;flex:none;width:130px}.rl .rr .who b{font-size:12.5px;font-weight:500;color:var(--ink)}
+.rl .rr .avs{display:flex;align-items:center;flex:none}.rl .rr .avs .av{margin-left:-6px;box-shadow:0 0 0 2px #fff}.rl .rr .avs .av:first-child{margin-left:0}.rl .rr .avs small{font-size:11px;color:var(--mut);margin-left:5px}
+.rl .rr .dt{font-size:12px;color:var(--mut);flex:none;width:65px;text-align:right}
+.rl .rr .ck{width:16px;height:16px;border:1.5px solid var(--ln);border-radius:4px;flex:none}
+/* 3-col detail */
+.d3{flex:1;display:flex;min-height:0;overflow:hidden}
+.d3 .lp{width:270px;flex:none;border-right:1px solid var(--ln);display:flex;flex-direction:column}.d3 .lp .lh{display:flex;align-items:center;gap:6px;height:42px;padding:0 14px;border-bottom:1px solid var(--ln);flex:none;font-size:13px}.d3 .lp .lh b{font-weight:600;color:var(--ink)}.d3 .lp .its{flex:1;overflow:hidden}.d3 .lp .it{display:flex;flex-direction:column;gap:2px;padding:9px 14px;border-bottom:1px solid var(--lns)}.d3 .lp .it.on{background:var(--bls)}.d3 .lp .it.on b{color:var(--bli)}.d3 .lp .it b{font-size:13px;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.d3 .lp .it span{font-size:11.5px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.d3 .mid{flex:1;overflow:auto;padding:18px 22px 40px}.d3 .mid h2{font-size:19px;font-weight:700;color:var(--ink);margin-bottom:10px}.d3 .mid .sec{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin:14px 0 6px;padding-top:8px;border-top:1px solid var(--lns)}.d3 .mid .kv{display:flex;gap:8px;padding:4px 0;font-size:13px}.d3 .mid .kv .k{width:130px;flex:none;color:var(--mut)}.d3 .mid .kv .v{color:var(--txt);font-weight:500;display:flex;align-items:center;gap:6px}
+.d3 .rp{width:300px;flex:none;border-left:1px solid var(--ln);padding:14px 16px;overflow:auto}.d3 .rp .cap{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin-bottom:6px;margin-top:12px}.d3 .rp .cap:first-child{margin-top:0}
+.d3 .rp .dlb{border:1px solid var(--rd);border-radius:9px;padding:10px;margin-bottom:12px}.d3 .rp .dlb .lb{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--rd);text-transform:uppercase}.d3 .rp .dlb .dv{font-size:14px;font-weight:700;color:var(--ink);margin-top:3px}.d3 .rp .dlb .ov{font-size:12px;color:var(--rd);font-weight:600}.d3 .rp .dlb .sl{font-size:12px;color:var(--mut);float:right;margin-top:-14px}
+.d3 .rp .aps{display:flex;align-items:center;gap:8px;padding:5px 0}.d3 .rp .aps div{display:flex;flex-direction:column;gap:1px;min-width:0}.d3 .rp .aps b{font-size:12.5px;font-weight:600;color:var(--ink)}.d3 .rp .aps b.act{color:var(--bl)}.d3 .rp .aps small{font-size:11px;color:var(--mut)}
+.d3 .rp .al{display:flex;align-items:flex-start;gap:6px;font-size:12px;color:var(--mut);padding:3px 0}.d3 .rp .al b{color:var(--ink);font-weight:500}
+/* modal */
+.mo{position:absolute;inset:0;background:rgba(15,23,42,.35);z-index:10;display:flex;align-items:center;justify-content:center}
+.mdl{background:#fff;border-radius:14px;width:580px;max-height:500px;box-shadow:0 30px 80px rgba(0,0,0,.35);display:flex;flex-direction:column;overflow:hidden}.mdl .mh{padding:18px 22px 10px}.mdl .mh b{font-size:17px;font-weight:700;color:var(--ink)}.mdl .mh span{display:block;font-size:13px;color:var(--mut);margin-top:3px}
+.mdl .ms{display:flex;align-items:center;gap:8px;height:34px;margin:0 22px 10px;padding:0 12px;border:1px solid var(--ln);border-radius:8px;color:var(--mut);font-size:13px}
+.mdl .ml{flex:1;overflow:auto;padding:0 22px 18px}
+.mdl .mg{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin:12px 0 6px}
+.mdl .mi{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border:1px solid var(--ln);border-radius:9px;margin-bottom:6px}.mdl .mi .ic{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;flex:none;font-size:16px}.mdl .mi div{flex:1;min-width:0}.mdl .mi b{font-size:13.5px;font-weight:500;color:var(--ink)}.mdl .mi span{font-size:11.5px;color:var(--mut)}.mdl .mi .sl{margin-left:auto;font-size:12px;color:var(--mut);flex:none;align-self:center}
+/* board */
+.brd{flex:1;display:flex;gap:10px;padding:8px 14px;overflow-x:auto;background:var(--bgs)}
+.brd .col{width:240px;flex:none;display:flex;flex-direction:column;gap:6px}.brd .col .ch{display:flex;align-items:center;gap:6px;padding:5px 8px;font-size:13px;font-weight:700;color:var(--ink)}.brd .col .ch i{width:8px;height:8px;border-radius:50%}.brd .col .ch em{font-style:normal;font-size:12px;font-weight:500;color:var(--mut)}.brd .col .empty{font-size:12px;color:var(--mut);padding:8px;text-align:center}
+.brd .cd{background:#fff;border:1px solid var(--ln);border-radius:8px;padding:9px 11px;display:flex;flex-direction:column;gap:4px}.brd .cd .t1{font-size:11px;color:var(--mut)}.brd .cd .t1 code{font-weight:600}.brd .cd b{font-size:12.5px;font-weight:600;color:var(--ink)}.brd .cd b.x{text-decoration:line-through;color:var(--mut)}.brd .cd .l2{font-size:11.5px;color:var(--mut);display:flex;align-items:center;gap:4px}.brd .cd .l2 .late{color:var(--rd);font-weight:600}
+.brd .cd .pri{display:inline-flex;height:17px;padding:0 5px;border-radius:4px;font-size:10px;font-weight:600;align-items:center}.brd .cd .pri.h{background:#FFF7ED;color:#C2410C}.brd .cd .pri.c{background:var(--rds);color:var(--rd)}.brd .cd .pri.m{background:var(--bls);color:var(--bli)}.brd .cd .pri.l{background:var(--lns);color:var(--mut)}
+/* workflow table */
+.jt{flex:1;overflow:hidden}.jt table{width:100%;border-collapse:collapse;table-layout:fixed}.jt th{text-align:left;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--mut);padding:9px 14px;border-bottom:1px solid var(--ln);background:var(--bgs)}.jt td{padding:9px 14px;border-bottom:1px solid var(--lns);font-size:13px;color:var(--txt);vertical-align:middle}
+.jt .jn{display:flex;flex-direction:column;gap:2px}.jt .jn .jm{display:flex;align-items:center;gap:5px;font-size:11.5px;color:var(--mut)}.jt .jn .jm i{width:7px;height:7px;border-radius:50%;flex:none}.jt .jn .jm code{font-family:ui-monospace,Consolas,monospace;font-size:11px;font-weight:600}.jt .jn b{font-size:13.5px;font-weight:500;color:var(--ink)}
+.jt .stg{display:flex;flex-direction:column;gap:3px}.jt .stg .sl{font-size:11.5px;font-weight:600}.jt .stg .sl.done{color:var(--gn)}.jt .stg .sl.prog{color:var(--bl)}
+.jt .cv2{display:flex;height:13px;gap:0;border-radius:3px;overflow:hidden}.jt .cv2 i{flex:1;height:13px;clip-path:polygon(0 0,calc(100% - 4px) 0,100% 50%,calc(100% - 4px) 100%,0 100%,4px 50%)}.jt .cv2 i:first-child{clip-path:polygon(0 0,calc(100% - 4px) 0,100% 50%,calc(100% - 4px) 100%,0 100%)}
+.jt .who{display:flex;align-items:center;gap:5px;white-space:nowrap}
+/* drawer */
+.vl{position:absolute;inset:0;background:rgba(15,23,42,.2);z-index:4}
+.dw{position:absolute;top:0;right:0;bottom:0;width:490px;background:#fff;border-left:1px solid var(--ln);box-shadow:-20px 0 40px -20px rgba(15,23,42,.3);z-index:5;display:flex;flex-direction:column}
+.dw .dh{height:44px;display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:1px solid var(--ln);flex:none;font-size:13px;color:var(--mut)}.dw .dh code{font-family:ui-monospace,Consolas,monospace;font-weight:700;color:var(--ink);font-size:14px}
+.dw .db{flex:1;overflow:auto;display:flex}.dw .dl{flex:1;padding:16px 18px;border-right:1px solid var(--ln)}.dw .dl .wfn{display:inline-flex;padding:3px 9px;border-radius:5px;background:var(--bls);color:var(--bli);font-size:12px;font-weight:600;margin-bottom:8px}.dw .dl h2{font-size:18px;font-weight:700;color:var(--ink);margin-bottom:12px;line-height:1.3}
+.dw .dl .btns{display:flex;gap:8px;margin-bottom:14px}.dw .dl .btns .mn{background:var(--bl);color:#fff;height:34px;padding:0 16px;border-radius:7px;font-weight:600;display:inline-flex;align-items:center;gap:5px;font-size:13px}.dw .dl .btns .mf{background:var(--rds);color:var(--rd);height:34px;padding:0 16px;border-radius:7px;font-weight:600;display:inline-flex;align-items:center;gap:5px;font-size:13px}
+.dw .dl .kv{display:flex;align-items:center;gap:6px;padding:4px 0;font-size:12.5px}.dw .dl .kv .k{width:100px;flex:none;color:var(--mut)}.dw .dl .kv .v{color:var(--txt);font-weight:500;display:flex;align-items:center;gap:5px}
+.dw .dr{width:210px;flex:none;padding:12px 14px;overflow:auto}.dw .dr .stg{display:flex;gap:0;margin-bottom:6px}.dw .dr .stg span{flex:1;height:24px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600;color:var(--mut);background:var(--lns);clip-path:polygon(0 0,calc(100% - 6px) 0,100% 50%,calc(100% - 6px) 100%,0 100%,6px 50%)}.dw .dr .stg span:first-child{clip-path:polygon(0 0,calc(100% - 6px) 0,100% 50%,calc(100% - 6px) 100%,0 100%);border-radius:3px 0 0 3px}.dw .dr .stg span:last-child{border-radius:0 3px 3px 0}.dw .dr .stg span.done{background:var(--gns);color:var(--gn)}.dw .dr .stg span.now{background:var(--bl);color:#fff}
+.dw .dr .sec{font-size:12.5px;font-weight:700;color:var(--ink);margin:10px 0 5px;padding-top:6px;border-top:1px solid var(--lns)}
+/* builder */
+.bld{flex:1;display:flex;min-height:0;overflow:hidden}.bld .bp{width:230px;flex:none;border-right:1px solid var(--ln);padding:10px;overflow:auto}.bld .bp .st{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:7px;margin-bottom:2px;font-size:13px;font-weight:500;color:var(--ink)}.bld .bp .st i{width:22px;height:22px;border-radius:5px;display:grid;place-items:center;font-style:normal;font-size:11px;font-weight:700;flex:none}
+.bld .canvas{flex:1;background:#FAFAFA;background-image:radial-gradient(var(--ln) 1px,transparent 1px);background-size:18px 18px;position:relative;overflow:hidden}
+.bld .node{position:absolute;background:#fff;border:1px solid var(--ln);border-radius:9px;box-shadow:0 3px 12px rgba(0,0,0,.05);width:260px}.bld .node .nh{display:flex;align-items:center;gap:6px;padding:9px 11px;border-bottom:1px solid var(--lns)}.bld .node .nh i{width:20px;height:20px;border-radius:5px;display:grid;place-items:center;font-style:normal;font-size:10px;font-weight:700}.bld .node .nh b{font-size:12.5px;color:var(--ink)}.bld .node .nh em{font-style:normal;font-size:10px;font-weight:600;padding:2px 6px;border-radius:4px;margin-left:auto}.bld .node .nb{padding:7px 11px;font-size:11.5px;color:var(--mut)}
+.bld .wire{position:absolute;width:2px;background:#94A3B8}.bld .diamond{position:absolute;width:12px;height:12px;transform:rotate(45deg);border:2px solid var(--vi);background:#fff}
+.bld .branch{position:absolute;display:flex;align-items:center;gap:3px;padding:3px 8px;border-radius:5px;font-size:10px;font-weight:600}.bld .branch.ok{background:var(--gns);color:var(--gn);border:1px solid #BBF7D0}.bld .branch.wn{background:#FFF7ED;color:#C2410C;border:1px solid #FDBA74}
+.bld .zoom{position:absolute;left:14px;bottom:14px;display:flex;gap:2px;flex-direction:column}.bld .zoom span{width:28px;height:28px;display:grid;place-items:center;background:#fff;border:1px solid var(--ln);border-radius:5px;color:var(--txt);font-size:12px}
+/* e-office */
+.eod{flex:1;overflow:auto;padding:18px 22px}
+.eod .wlc{font-size:20px;font-weight:700;color:var(--ink);margin-bottom:3px}.eod .sub{font-size:13px;color:var(--mut);margin-bottom:14px}
+.eod .box{background:#fff;border:1px solid var(--ln);border-radius:9px;padding:14px;margin-bottom:12px}.eod .box .bh{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin-bottom:8px}
+.eod .urg{background:#FEF2F2;border:1px solid #FECACA;border-radius:7px;padding:9px 12px;display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}.eod .urg .ui b{font-size:13px;font-weight:600;color:var(--ink)}.eod .urg .ui span{font-size:11.5px;color:var(--rd);display:block}
+.eod .sts{display:flex;gap:10px;margin-bottom:12px}.eod .sts div{flex:1;background:var(--bgs);border-radius:7px;padding:9px 12px}.eod .sts span{font-size:11px;color:var(--mut)}.eod .sts b{font-size:17px;font-weight:700;color:var(--ink)}
+/* e-office table */
+.eot{flex:1;overflow:hidden}.eot table{width:100%;border-collapse:collapse;table-layout:fixed}.eot th{text-align:left;font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--mut);padding:9px 12px;border-bottom:1px solid var(--ln);background:var(--bgs)}.eot td{padding:9px 12px;border-bottom:1px solid var(--lns);font-size:12.5px;color:var(--txt);vertical-align:middle;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.eot .tp{display:inline-flex;height:18px;padding:0 6px;border-radius:4px;font-size:10px;font-weight:700;align-items:center}.eot .tp.nb{background:var(--gns);color:var(--gn)}.eot .tp.di{background:#EDE9FE;color:var(--vi)}.eot .tp.den{background:var(--bls);color:var(--bli)}
+.eot .ph{display:flex;align-items:center;gap:4px;font-size:12px}.eot .ph i{width:6px;height:6px;border-radius:50%}
+.eot .ur{display:inline-flex;height:18px;padding:0 6px;border-radius:4px;font-size:10px;font-weight:700;align-items:center}.eot .ur.bt{background:var(--lns);color:var(--mut)}.eot .ur.k{background:#FFF7ED;color:#C2410C}
+/* e-office detail */
+.edt{flex:1;display:flex;min-height:0;overflow:hidden}
+.edt .el{flex:1;overflow:auto;padding:18px 22px 40px}.edt .el h2{font-size:19px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.edt .el .chips{display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap}
+.edt .el .aib{border:1px solid #DDD6FE;border-left:3px solid var(--vi);border-radius:7px;padding:10px 12px;margin-bottom:12px;background:#FAFAFE}.edt .el .aib .ail{font-size:11px;font-weight:700;color:var(--vi);letter-spacing:.04em;margin-bottom:4px}.edt .el .aib p{font-size:12.5px;color:var(--txt);line-height:1.5}
+.edt .el .sec{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin:12px 0 6px}
+.edt .el .kv{display:flex;gap:6px;padding:3px 0;font-size:12.5px}.edt .el .kv .k{width:120px;flex:none;color:var(--mut)}.edt .el .kv .v{color:var(--txt);font-weight:500}
+.edt .er{width:310px;flex:none;border-left:1px solid var(--ln);padding:14px 16px;overflow:auto}.edt .er .cap{font-size:10px;font-weight:700;letter-spacing:.06em;color:var(--mut);text-transform:uppercase;margin-bottom:6px;margin-top:10px}.edt .er .cap:first-child{margin-top:0}
+.edt .er .steps{display:flex;align-items:center;gap:0;margin-bottom:10px}.edt .er .steps .dot{width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:8px;font-weight:700;flex:none}.edt .er .steps .line{flex:1;height:2px;background:var(--ln)}
+.edt .er .acrd{border:1px solid var(--or);border-radius:7px;padding:8px 10px;margin-bottom:10px;background:#FFFBEB}.edt .er .acrd b{font-size:12px;font-weight:600;color:#92400E}.edt .er .acrd span{font-size:11px;color:var(--mut);display:block;margin-top:2px}
+/* annotation */
+.anno{position:absolute;left:0;right:0;bottom:0;height:130px;background:linear-gradient(180deg,rgba(27,43,85,0) 0%,rgba(27,43,85,.9) 25%,rgba(27,43,85,.97) 100%);z-index:8;display:flex;align-items:flex-end;padding:0 28px 14px;gap:20px;pointer-events:none}
+.anno .an{font-size:30px;font-weight:800;color:rgba(255,255,255,.18);flex:none;width:45px;line-height:1}
+.anno .ab{flex:1;min-width:0}
+.anno .ah{font-size:10px;font-weight:700;letter-spacing:.08em;color:rgba(255,255,255,.4);text-transform:uppercase;margin-bottom:2px}
+.anno .at{font-size:14px;font-weight:700;color:#fff;margin-bottom:3px}
+.anno .ad{font-size:12px;color:rgba(255,255,255,.65);line-height:1.5}
+.anno .ap2{display:flex;gap:5px;margin-top:4px;flex-wrap:wrap}.anno .ap2 span{padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.12);color:rgba(255,255,255,.8);font-size:10.5px;font-weight:600}
+.anno .nav{flex:none;display:flex;gap:5px;align-items:center;pointer-events:auto}.anno .nav b{width:26px;height:26px;display:grid;place-items:center;border-radius:5px;border:1px solid rgba(255,255,255,.25);color:rgba(255,255,255,.7);font-size:12px;cursor:pointer}.anno .nav span{font-size:11px;color:rgba(255,255,255,.4)}
+/* step indicator */
+.stp{position:absolute;left:50%;bottom:6px;transform:translateX(-50%);z-index:20;pointer-events:none;font:600 11px/1 var(--f);color:#fff;background:rgba(15,23,42,.38);padding:3px 8px;border-radius:999px;transition:opacity .4s}.stp.fade{opacity:0;transition:opacity .8s}
+</style>
+</head><body>
+<div class="sc" id="scaler"><div class="w" id="cv"></div><span class="stp" id="stepi"></span></div>
+<script>
+const P={
+  tam:{n:'Trần Minh Tâm',t:'Trưởng HEAD 1',g:'147,197,253),rgb(37,99,235'},
+  hung:{n:'Nguyễn Thanh Hùng',t:'Trưởng HEAD 2',g:'253,186,116),rgb(234,88,12'},
+  nhung:{n:'Lê Thị Hồng Nhung',t:'Trưởng HEAD 3',g:'249,168,212),rgb(219,39,119'},
+  duc:{n:'Phạm Văn Đức',t:'Trưởng HEAD 4',g:'94,234,212),rgb(13,148,136'},
+  ha:{n:'Đỗ Thị Thu Hà',t:'Kế toán trưởng',g:'196,181,253),rgb(124,58,237'},
+  nam:{n:'Võ Hoàng Nam',t:'TP Kỹ thuật',g:'253,224,71),rgb(202,138,4'},
+  linh:{n:'Huỳnh Thị Mỹ Linh',t:'TP HC-NS',g:'103,232,249),rgb(8,145,178'},
+  me:{n:'Nguyễn Văn Khoa',t:'Phó Giám đốc',g:'248,113,113),rgb(185,28,28'}
+};
+const ini=n=>{const w=n.split(' ');return(w[0][0]+w[w.length-1][0]).toUpperCase()};
+const A=(k,s)=>{const p=P[k];return `<span class="av" style="background:linear-gradient(135deg,rgb(${p.g}));${s?`width:${s}px;height:${s}px;font-size:${Math.round(s*.38)}px`:''}">${ini(p.n)}</span>`};
+const sn=(n)=>n.split(' ').slice(-2).join(' ');
+const CH=p=>`<div class="cr"><i style="background:#FE5F58"></i><i style="background:#FCBC3F"></i><i style="background:#34C648"></i><div class="u"><b>namanh.base.vn</b>${p}</div></div>`;
+const TB=(emoji,name)=>`<div class="tb"><div class="br"><span class="ai" style="background:var(--bls);font-size:16px">${emoji}</span>${name}</div><div class="sr">🔍 Tìm kiếm…<kbd>⌘K</kbd></div><div class="ic">✨<span class="me">NK</span>▾</div></div>`;
+const SD=(app,items,ft)=>`<div class="sd"><div class="tt">${app}</div>${items}<div class="ft">${ft}<div class="ws"><i>N</i>HEAD Nam Anh</div></div></div>`;
+const R=(n,on)=>`<div class="rw ${on?'on':''}">${n}</div>`;
+const G=(l,bg,n)=>`<div class="rw gr"><span class="lt" style="background:${bg}">${l}</span>${n}<span style="margin-left:auto;color:var(--dim)">›</span></div>`;
+const pill=s=>s==='approved'?'<span class="pl" style="background:#22A55B;color:#fff">Đã duyệt</span>':s==='pending'?'<span class="pl" style="background:#EFF4FF;color:var(--bli);border:1px solid #BFD3FF">Đang chờ</span>':'<span class="pl" style="background:var(--rds);color:var(--rd)">Quá hạn</span>';
+
+// DATA
+const REQS=[
+  {name:'ĐN mua phụ tùng Honda — HEAD 3',svc:'Mua phụ tùng',code:'PT-0042',st:'pending',by:'nhung',desc:'Bộ ly hợp, má phanh, nhông sên dĩa Wave Alpha',appr:['nhung','ha','me'],dn:[0],dl:'Oct 05, 2026',sla:'48h',date:'Oct 02'},
+  {name:'Thanh toán vận chuyển xe T9 — HEAD 1',svc:'Thanh toán NCC',code:'TT-0015',st:'approved',by:'tam',desc:'38 chuyến, tổng 42.5tr',appr:['tam','ha'],dn:[0,1],date:'Oct 01'},
+  {name:'Tạm ứng tiền mặt — HEAD 2',svc:'Tạm ứng',code:'TU-0008',st:'overdue',by:'hung',desc:'15tr cho sự kiện ra mắt Vario 2027',appr:['hung','ha','me'],dn:[0],dl:'Oct 03',sla:'24h',date:'Sep 30'},
+  {name:'Bảo trì lift nâng xe — HEAD 4',svc:'Bảo trì thiết bị',code:'BT-0003',st:'pending',by:'duc',desc:'Thay dầu thuỷ lực, kiểm tra van',appr:['duc','nam'],dn:[0],dl:'Oct 07',sla:'48h',date:'Oct 03'},
+  {name:'Mua đồng phục Q4 — HC-NS',svc:'Mua sắm nội bộ',code:'MS-0002',st:'approved',by:'linh',desc:'25 bộ áo polo Honda mẫu mới',appr:['linh','ha'],dn:[0,1],date:'Sep 28'},
+  {name:'ĐN mua phụ tùng Honda — HEAD 1',svc:'Mua phụ tùng',code:'PT-0041',st:'pending',by:'tam',desc:'Bộ dây điện, IC điều khiển Air Blade 160',appr:['tam','ha','me'],dn:[0],dl:'Oct 06',sla:'48h',date:'Oct 01'},
+  {name:'Thanh toán quảng cáo FB T9',svc:'Thanh toán NCC',code:'TT-0014',st:'overdue',by:'tam',desc:'Hoá đơn 8.2tr',appr:['tam','ha'],dn:[0],dl:'Oct 02',sla:'24h',date:'Sep 29'},
+  {name:'Sửa chữa máy nén khí — HEAD 3',svc:'Bảo trì thiết bị',code:'BT-0002',st:'approved',by:'nhung',desc:'Máy nén khí 3HP rò hơi',appr:['nhung','nam'],dn:[0,1],date:'Sep 27'},
+];
+const SVCS=[{n:'Đề nghị mua phụ tùng',g:'Vật tư – Phụ tùng',d:'Khi các HEAD cần nhập phụ tùng Honda',sla:'2d',c:'#2563EB',e:'🔧'},{n:'Thanh toán nhà cung cấp',g:'Kế toán – Tài chính',d:'Thanh toán hoá đơn, vận chuyển',sla:'1d',c:'#7C3AED',e:'💳'},{n:'Tạm ứng',g:'Kế toán – Tài chính',d:'Tạm ứng tiền mặt',sla:'1d',c:'#0891B2',e:'💵'},{n:'Bảo trì thiết bị',g:'Kỹ thuật – Bảo hành',d:'Sửa chữa thiết bị tại xưởng',sla:'2d',c:'#D97706',e:'🔧'},{n:'Mua sắm nội bộ',g:'Hành chính – Nhân sự',d:'Đồng phục, văn phòng phẩm',sla:'2d',c:'#16A34A',e:'📦'}];
+const TASKS=[
+  {name:'Kiểm tra tồn kho phụ tùng quý 4',svc:'KỸ THUẬT',code:'KT-12',to:'tam',pr:'h',dl:'05/10',st:0,ov:0},
+  {name:'Chuẩn bị chương trình khuyến mãi cuối năm',svc:'KINH DOANH',code:'KD-45',to:'hung',pr:'h',dl:'10/10',st:0,ov:0},
+  {name:'Báo cáo doanh số T9 — tất cả HEAD',svc:'BÁO CÁO',code:'BC-31',to:'ha',pr:'c',dl:'03/10',st:0,ov:1},
+  {name:'Rà soát HĐ thuê mặt bằng HEAD 2',svc:'HC-NS',code:'HC-18',to:'linh',pr:'m',dl:'15/10',st:0,ov:0},
+  {name:'Đào tạo KTV mới — HEAD 1 & 3',svc:'KỸ THUẬT',code:'KT-13',to:'nam',pr:'h',dl:'12/10',st:1,ov:0},
+  {name:'Lập kế hoạch nhập xe Q4/2026',svc:'KINH DOANH',code:'KD-46',to:'tam',pr:'h',dl:'08/10',st:1,ov:0},
+  {name:'Cập nhật bảng giá phụ tùng từ Honda',svc:'KỸ THUẬT',code:'KT-11',to:'nam',pr:'m',dl:'01/10',st:0,ov:1},
+  {name:'Sắp xếp kho phụ tùng HEAD 4',svc:'KỸ THUẬT',code:'KT-10',to:'duc',pr:'l',dl:'28/09',st:4,ov:0},
+  {name:'Gửi BC bảo hành T9 cho Honda VN',svc:'BÁO CÁO',code:'BC-30',to:'nam',pr:'h',dl:'30/09',st:4,ov:0},
+  {name:'Tổ chức họp giao ban tháng 10',svc:'HC-NS',code:'HC-17',to:'linh',pr:'m',dl:'02/10',st:4,ov:0},
+];
+const priN={h:'Cao',c:'Khẩn cấp',m:'Trung bình',l:'Thấp'};
+const active=TASKS.filter(t=>t.st<4).length,overdue=TASKS.filter(t=>t.ov).length,done2=TASKS.filter(t=>t.st===4).length;
+const STAGES=['Đề nghị','Báo giá','Duyệt mua','Nhập kho','Hoàn tất'];
+const JOBS=[
+  {name:'Nhập lô xe Vision 2027 — HEAD 1',wf:'QT nhập hàng',code:'NH-0023',cur:2,to:'ha',dl:'Oct 10'},
+  {name:'Nhập phụ tùng bộ ly hợp — HEAD 3',wf:'QT nhập hàng',code:'NH-0022',cur:1,to:'nhung',dl:'Oct 08'},
+  {name:'Nhập xe Wave Alpha — HEAD 2',wf:'QT nhập hàng',code:'NH-0021',cur:4,to:'hung',dl:'Sep 28'},
+  {name:'Nhập phụ tùng dầu nhớt Q4 — HEAD 1',wf:'QT nhập hàng',code:'NH-0024',cur:0,to:'tam',dl:'Oct 12'},
+  {name:'Nhập xe Air Blade 160 — HEAD 4',wf:'QT nhập hàng',code:'NH-0020',cur:4,to:'duc',dl:'Sep 25'},
+];
+const DOCS=[
+  {name:'Thông báo chính sách giá phụ tùng Q4/2026',tp:'nb',num:'NA-NB-2026/042',phase:'Phê duyệt',phaseC:'#2563EB',ur:'k',by:'nam'},
+  {name:'Biên bản họp giao ban tháng 9',tp:'nb',num:'NA-NB-2026/041',phase:'Lấy ý kiến',phaseC:'#D97706',ur:'bt',by:'linh'},
+  {name:'Quy định ATLĐ tại xưởng dịch vụ',tp:'nb',num:'NA-NB-2026/040',phase:'Hoàn tất',phaseC:'#16A34A',ur:'bt',by:'nam'},
+  {name:'CV Honda VN — KM cuối năm',tp:'den',num:'NA-ĐN-2026/018',phase:'Đang xử lý',phaseC:'#2563EB',ur:'k',by:'tam'},
+  {name:'Thông báo lịch nghỉ Tết 2027',tp:'nb',num:'NA-NB-2026/039',phase:'Soạn thảo',phaseC:'#9CA3AF',ur:'bt',by:'linh'},
+  {name:'CV gửi Honda VN — BC doanh số T9',tp:'di',num:'NA-ĐI-2026/012',phase:'Ký duyệt',phaseC:'#7C3AED',ur:'bt',by:'ha'},
+];
+const tpN={nb:'NB',den:'ĐẾN',di:'ĐI'};const urN={bt:'Bình thường',k:'Khẩn'};
+
+// SIDEBARS
+const reqSD=()=>SD('📋 Đề xuất',R('🏠 Trang chủ',1)+R('📩 Gửi đến tôi',0)+R('📤 Tôi đã gửi',0)+'<div class="sc2">SERVICE PHÊ DUYỆT</div>'+G('V','#7C3AED','Vật tư – Phụ tùng')+G('K','#2563EB','Kế toán – Tài chính')+G('T','#D97706','Kỹ thuật – Bảo hành')+G('H','#16A34A','Hành chính – Nhân sự'),R('📊 Báo cáo',0)+R('⚙️ Cài đặt',0));
+const taskSD=()=>SD('✅ Công việc',R('🏠 Trang chủ',1)+R('📋 Việc của tôi',0)+'<div class="sc2">YÊU CẦU CÔNG VIỆC</div>'+G('K','#2563EB','Kinh doanh')+G('T','#D97706','Kỹ thuật')+G('H','#16A34A','HC-NS')+G('E','#7C3AED','Kế toán'),R('📊 Báo cáo',0)+R('⚙️ Cài đặt',0));
+const wfSD=on=>SD('⚡ Quy trình',R('🏠 Việc của tôi',on==='mw')+R('🔖 Đã lưu',0)+'<div class="sc2">QUY TRÌNH</div>'+G('N','#2563EB','Nhập hàng'),R('📊 Báo cáo',0)+R('⚙️ Cài đặt',0));
+const eoSD=()=>SD('📄 Văn phòng',R('🏠 Tổng quan',1)+R('📄 Văn bản',0)+R('📩 Bì thư',0)+'<div class="sc2">VĂN BẢN NỘI BỘ</div>'+R('📢 Thông báo',0)+R('📝 Biên bản họp',0),R('➕ Văn bản mới',0)+R('⚙️ Cài đặt',0));
+
+// CHEVRON helper
+const cvr=cur=>STAGES.map((s,i)=>{const c=i<cur?'var(--gns)':i===cur?'var(--bl)':'#E5E7EB';const tc=i===cur?'#fff':i<cur?'var(--gn)':'#9CA3AF';return `<i style="background:${c};color:${tc};display:flex;align-items:center;justify-content:center;font-size:8.5px;font-weight:600">${i<=cur?s:''}</i>`}).join('');
+
+// ====== COVER ======
+function sCover(){return `<div style="width:1440px;height:880px;background:linear-gradient(135deg,#1B2B55 0%,#003989 50%,#1E88E5 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden;font-family:var(--f)">
+  <div style="position:absolute;top:0;right:0;width:600px;height:600px;border-radius:50%;background:rgba(30,136,229,.12);transform:translate(30%,-30%)"></div>
+  <div style="position:absolute;bottom:0;left:0;width:400px;height:400px;border-radius:50%;background:rgba(255,210,77,.05);transform:translate(-30%,30%)"></div>
+  <div style="background:#fff;border-radius:14px;padding:14px 22px;margin-bottom:28px;position:relative;z-index:1;box-shadow:0 8px 32px rgba(0,0,0,.15);display:flex;align-items:center;gap:10px"><div style="width:36px;height:36px;border-radius:8px;background:#1E88E5;display:grid;place-items:center;color:#fff;font-size:20px;font-weight:800">B</div><span style="font-size:22px;font-weight:800;color:#1E88E5">Base.vn</span></div>
+  <div style="text-align:center;position:relative;z-index:1">
+    <div style="font-size:13px;font-weight:600;letter-spacing:.12em;color:rgba(255,255,255,.55);text-transform:uppercase;margin-bottom:14px">Giải pháp vận hành nội bộ</div>
+    <div style="font-size:40px;font-weight:800;color:#fff;line-height:1.2;margin-bottom:10px">Hệ thống HEAD Nam Anh</div>
+    <div style="font-size:17px;color:rgba(255,255,255,.65);margin-bottom:36px">Quản trị đa chi nhánh trên một nền tảng duy nhất</div>
+    <div style="display:flex;gap:10px;justify-content:center;margin-bottom:44px">
+      <span style="padding:7px 16px;border-radius:7px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:13px;font-weight:600">📋 Đề xuất</span>
+      <span style="padding:7px 16px;border-radius:7px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:13px;font-weight:600">✅ Công việc</span>
+      <span style="padding:7px 16px;border-radius:7px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:13px;font-weight:600">⚡ Quy trình</span>
+      <span style="padding:7px 16px;border-radius:7px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:13px;font-weight:600">📄 Văn phòng</span>
+    </div>
+    <div style="font-size:12.5px;color:rgba(255,255,255,.4)">Tháng 10/2026 · BASE.VN</div>
+  </div>
+  <div style="position:absolute;bottom:20px;right:28px;color:rgba(255,255,255,.35);font-size:12px">Bấm hoặc nhấn → để bắt đầu</div>
+</div>`}
+
+// ====== INTRO ======
+function sIntro(){return `<div style="width:1440px;height:880px;background:#fff;display:flex;font-family:var(--f);overflow:hidden">
+  <div style="width:460px;background:linear-gradient(180deg,#1B2B55,#003989);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:36px;position:relative">
+    <div style="background:#fff;border-radius:12px;padding:10px 16px;margin-bottom:16px;position:relative;box-shadow:0 4px 20px rgba(0,0,0,.15);display:flex;align-items:center;gap:8px"><div style="width:28px;height:28px;border-radius:6px;background:#1E88E5;display:grid;place-items:center;color:#fff;font-size:16px;font-weight:800">B</div><span style="font-size:18px;font-weight:800;color:#1E88E5">Base.vn</span></div>
+    <div style="color:#fff;font-size:20px;font-weight:700;text-align:center;position:relative;line-height:1.4">Nền tảng<br>quản trị thông minh</div>
+    <div style="color:rgba(255,255,255,.45);font-size:13px;margin-top:10px;text-align:center;position:relative">base.vn</div>
+  </div>
+  <div style="flex:1;padding:44px 50px;overflow:auto;display:flex;flex-direction:column;gap:24px">
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:.1em;color:#1E88E5;text-transform:uppercase;margin-bottom:6px">BÀI TOÁN CỦA HEAD NAM ANH</div>
+      <div style="font-size:24px;font-weight:700;color:#1A1F2C;line-height:1.3;margin-bottom:12px">5 HEAD, 1 bài toán chung:<br>làm sao kiểm soát mà không cần có mặt?</div>
+      <div style="font-size:14px;color:#4A5468;line-height:1.7">Hệ thống HEAD Nam Anh vận hành 5 cửa hàng Honda trải dài Tiền Giang. Phần mềm Honda đã giải quyết bán xe và bảo hành — nhưng mọi việc phía sau: <b style="color:#1A1F2C">duyệt đề nghị mua phụ tùng, giao việc cho trưởng cửa hàng, ban hành thông báo nội bộ, theo dõi quy trình nhập hàng</b> — vẫn chạy bằng Zalo, giấy và Excel.</div>
+    </div>
+    <div style="display:flex;gap:14px">
+      <div style="flex:1;background:#F4F8FC;border-radius:10px;padding:16px 18px;border-left:3px solid #DC2626">
+        <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#DC2626;text-transform:uppercase;margin-bottom:6px">ĐANG XẢY RA</div>
+        <div style="font-size:13px;color:#4A5468;line-height:1.6">Trưởng HEAD nhắn Zalo xin duyệt → lãnh đạo bận quên → trễ 3 ngày → xưởng thiếu đồ.<br><br>Giao việc bằng miệng → không theo dõi → họp sau mới biết chưa làm.<br><br>Thông báo gửi nhóm Zalo → HEAD 4 không thấy → KH phàn nàn giá cũ.</div>
+      </div>
+      <div style="flex:1;background:#F4F8FC;border-radius:10px;padding:16px 18px;border-left:3px solid #1DBA5F">
+        <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#1DBA5F;text-transform:uppercase;margin-bottom:6px">VỚI BASE — WORK+</div>
+        <div style="font-size:13px;color:#4A5468;line-height:1.6">
+          <b style="color:#1A1F2C">📋 Đề xuất</b> — Mọi đề nghị nằm một chỗ, duyệt online, có SLA.<br><br>
+          <b style="color:#1A1F2C">✅ Công việc</b> — Giao việc rõ, biết ai làm gì, việc nào trễ.<br><br>
+          <b style="color:#1A1F2C">⚡ Quy trình</b> — Nhập hàng đi đúng các bước, ai cũng biết.<br><br>
+          <b style="color:#1A1F2C">📄 Văn phòng</b> — Văn bản tập trung, AI tóm tắt.</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;padding:12px 18px;background:#EFF6FF;border-radius:9px;border:1px solid #BFDBFE">
+      <div style="font-size:26px">🎯</div>
+      <div style="font-size:13.5px;color:#1A1F2C;line-height:1.5"><b>Mục tiêu:</b> Mở máy ra thấy toàn cảnh hoạt động — ai đang chờ duyệt gì, việc nào trễ, chi nhánh nào có vấn đề — thay vì hỏi từng người qua Zalo.</div>
+    </div>
+    <div style="font-size:12px;color:#7B869C;text-align:right">→ Bấm để xem demo từng app</div>
+  </div>
+</div>`}
+
+// ====== HỒI 1: REQUESTS ======
+function h1s1(){const rows=REQS.map(r=>`<div class="rr"><span class="ck"></span><div class="inf"><b>${r.name}<code>${r.code}</code></b><span>${r.svc} · ${r.desc}</span></div>${pill(r.st)}<div class="who">${A(r.by,20)}<b>${sn(P[r.by].n)}</b></div><div class="avs">${r.appr.map(k=>A(k,18)).join('')}<small>${r.dn.length}/${r.appr.length}</small></div><span class="dt">${r.date}</span></div>`).join('');
+  return CH('/requests/home')+`<div style="flex:1;display:flex;flex-direction:column">${TB('📋','Đề xuất')}<div class="ap">${reqSD()}<div class="mn"><div class="hd"><b style="font-size:16px">Đề xuất</b><span class="rt"><span class="bt g">🔍 Tìm</span><span class="bt p">+ Đề xuất mới</span></span></div><div class="tbs"><span class="on">TẤT CẢ <em>${REQS.length}</em></span><span>ĐẾN LƯỢT TÔI</span><span>QUÁ HẠN</span><span>ĐANG CHỜ</span><span>ĐÃ DUYỆT</span><span class="rt"><span class="bt g">🔽 Bộ lọc</span></span></div><div class="rl">${rows}</div></div></div></div>`}
+
+function h1s2(){const groups={};SVCS.forEach(s=>{if(!groups[s.g])groups[s.g]=[];groups[s.g].push(s)});let ml='';for(const[g,svcs] of Object.entries(groups)){ml+=`<div class="mg">▾ ${g} ${svcs.length}</div>`;svcs.forEach(s=>{ml+=`<div class="mi"><div class="ic" style="background:${s.c}">${s.e}</div><div><b>${s.n}</b><span>${s.d}</span></div><span class="sl">${s.sla}</span></div>`})}
+  return h1s1()+`<div class="mo"><div class="mdl"><div class="mh"><b>Đề xuất mới</b><span>Chọn một service để tạo đề xuất</span></div><div class="ms">🔍 Tìm service hoặc nhóm…</div><div class="ml">${ml}</div></div></div>`}
+
+function h1s3(){const r=REQS[0];const left=REQS.slice(0,6).map((q,i)=>`<div class="it ${i===0?'on':''}"><b>${q.name}</b><span>${q.svc} · ${q.desc.substring(0,40)}…</span></div>`).join('');
+  return CH('/requests/'+r.code)+`<div style="flex:1;display:flex;flex-direction:column">${TB('📋','Đề xuất')}<div class="ap">${reqSD()}<div class="mn"><div class="hd"><span style="color:var(--mut);font-weight:500"><span style="width:20px;height:20px;border-radius:5px;background:var(--bls);display:inline-grid;place-items:center;font-size:8px;font-weight:700;color:var(--bli)">V</span> Vật tư › ${r.svc} › <code style="font-family:ui-monospace,monospace;font-size:12px;color:var(--bli);font-weight:600">${r.code}</code></span><span class="rt">${pill(r.st)} ✕</span></div>
+  <div class="d3"><div class="lp"><div class="lh"><b>TẤT CẢ</b> <em>${REQS.length}</em></div><div class="its">${left}</div></div>
+  <div class="mid"><h2>${r.name}</h2><div style="display:flex;gap:8px;margin-bottom:14px"><span class="bt ap2">Phê duyệt</span><span class="bt fw2">Chuyển tiếp</span><span class="bt rj2">Từ chối</span></div>
+    <div class="sec" style="border:none;margin-top:0">Thông tin chính</div><div class="kv"><span class="k">Tên đề xuất</span><span class="v">${r.name}</span></div><div class="kv"><span class="k">Service</span><span class="v"><b>${r.svc}</b> (Sequential)</span></div><div class="kv"><span class="k">Người tạo</span><span class="v">${A(r.by,18)} ${P[r.by].n}</span></div><div class="kv"><span class="k">Hạn chót</span><span class="v">${r.dl}</span></div><div class="kv"><span class="k">Mô tả</span><span class="v">${r.desc}</span></div>
+    <div class="sec">Trao đổi</div><div style="border:1px solid var(--ln);border-radius:7px;padding:8px 12px;color:var(--mut)">Viết bình luận…</div></div>
+  <div class="rp"><div class="cap">SEQUENTIAL APPROVAL · 1/3 ĐÃ DUYỆT</div><div class="dlb"><span class="lb">HẠN CỦA BẠN</span><div class="dv">${r.dl}</div><div class="ov">Còn 2 ngày</div><span class="sl">SLA ${r.sla}</span></div>
+    <div class="aps">${A('nhung',28)}<div><b>${P.nhung.n}</b><small style="color:var(--gn)">Đã duyệt · 02/10</small></div><span style="color:var(--gn)">✓</span></div>
+    <div class="aps">${A('ha',28)}<div><b class="act">${P.ha.n}</b><small>SLA ${r.sla}</small></div></div>
+    <div class="aps">${A('me',28)}<div><b>${P.me.n}</b><small>SLA ${r.sla}</small></div></div>
+    <div style="border-top:1px solid var(--lns);padding-top:8px;margin-top:8px"><div class="cap">HÀNH ĐỘNG</div>
+    <div class="al">${A('nhung',16)}<span><b>${sn(P.nhung.n)}</b> đã duyệt · 02/10</span></div><div class="al">${A('nhung',16)}<span><b>${sn(P.nhung.n)}</b> đã tạo · 02/10</span></div></div></div></div></div></div></div>`}
+
+// ====== HỒI 2: TASK ======
+function h2s1(){const rows=TASKS.filter(t=>t.st<4).map(t=>`<div class="rr"><span style="width:18px;height:18px;border:2px solid var(--ln);border-radius:50%;flex:none"></span><div class="inf"><b>${t.name}</b><span style="text-transform:uppercase;letter-spacing:.04em;font-weight:600">${t.svc}</span></div><span class="pl ${t.pr}" style="background:${t.pr==='c'?'var(--rds)':t.pr==='h'?'#FFF7ED':t.pr==='m'?'var(--bls)':'var(--lns)'};color:${t.pr==='c'?'var(--rd)':t.pr==='h'?'#C2410C':t.pr==='m'?'var(--bli)':'var(--mut)'}">${priN[t.pr]}</span><div class="who" style="width:110px">${A(t.to,16)}<b style="font-size:12px">${sn(P[t.to].n)}</b></div><span class="dt" style="width:70px">📅 ${t.ov?`<b style="color:var(--rd)">${t.dl} ⚠</b>`:t.dl}</span></div>`).join('');
+  return CH('/task/home')+`<div style="flex:1;display:flex;flex-direction:column">${TB('✅','Công việc')}<div class="ap">${taskSD()}<div class="mn"><div class="hd"><b>🏠 Trang chủ</b> › <span class="pls"><span class="on">Tổng quan</span><span>Bảng</span><span>Theo hạn</span></span><span class="rt"><span class="bt p">+ Giao việc</span></span></div>
+  <div class="tbs"><span class="on">Tất cả</span><span>Giao cho tôi <em>2</em></span><span>Tôi giao <em>${active}</em></span><span class="rt"><b style="color:var(--gn)">${active} mở</b> · <b style="color:var(--rd)">${overdue} quá hạn</b> · <b style="color:var(--mut)">${done2} xong</b></span></div>
+  <div class="rl">${rows}</div></div></div></div>`}
+
+function h2s2(){
+  const cols=[{n:'Open',c:'#9CA3AF',t:TASKS.filter(t=>t.st===0)},{n:'In Progress',c:'var(--bl)',t:TASKS.filter(t=>t.st===1)},{n:'On Hold',c:'var(--or)',t:[]},{n:'Completed',c:'var(--gn)',t:TASKS.filter(t=>t.st===4)},{n:'Cancelled',c:'var(--rd)',t:[]}];
+  const html=cols.map(c=>{const cards=c.t.length?c.t.map(t=>`<div class="cd"><div class="t1"><code>${t.code}</code> <span class="pri ${t.pr}">${priN[t.pr]}</span></div><b${t.st>=4?' class="x"':''}>${t.name}</b><div class="l2">${t.svc} · ${A(t.to,14)} ${t.ov?`<span class="late">${t.dl} ⚠</span>`:t.dl}</div></div>`).join(''):'<div class="empty">Không có việc</div>';
+    const w=c.t.filter(t=>t.ov).length;return `<div class="col"><div class="ch"><i style="background:${c.c}"></i>${c.n} <em>${c.t.length}</em>${w?` <span style="color:var(--rd);font-size:11px;font-weight:600">⚠${w}</span>`:''}</div>${cards}</div>`}).join('');
+  return CH('/task/home?view=board')+`<div style="flex:1;display:flex;flex-direction:column">${TB('✅','Công việc')}<div class="ap">${taskSD()}<div class="mn"><div class="hd"><b>🏠 Trang chủ</b> › <span class="pls"><span>Tổng quan</span><span class="on">Bảng</span><span>Theo hạn</span></span><span class="rt"><span class="bt p">+ Giao việc</span></span></div>
+  <div class="tbs"><span class="on">Tất cả</span><span>Giao cho tôi <em>2</em></span><span>Tôi giao <em>${active}</em></span><span class="rt"><b style="color:var(--gn)">${active} mở</b> · <b style="color:var(--rd)">${overdue} quá hạn</b></span></div>
+  <div class="brd">${html}</div></div></div></div>`}
+
+function h2s3(){const t=TASKS[0];const left=TASKS.filter(x=>x.st<4).slice(0,6).map((q,i)=>`<div class="it ${i===0?'on':''}"><b>${q.name}</b><span style="text-transform:uppercase;letter-spacing:.03em;font-weight:600">${q.svc} · ${sn(P[q.to].n)} · ${q.dl}</span></div>`).join('');
+  return CH('/task/KT-12')+`<div style="flex:1;display:flex;flex-direction:column">${TB('✅','Công việc')}<div class="ap">${taskSD()}<div class="mn"><div class="hd">🏠 Trang chủ › ${t.svc} › <b>${t.name}</b><span class="rt"><span class="bt g">Open</span></span></div>
+  <div class="d3"><div class="lp"><div class="lh"><b>Trang chủ</b> <em>${active}</em></div><div class="its">${left}</div></div>
+  <div class="mid"><h2>○ ${t.name}</h2><div style="display:flex;gap:6px;font-size:12px;color:var(--mut);margin-bottom:12px"><span class="pl" style="background:var(--bls);color:var(--bli)">OPEN</span> ● ${priN[t.pr]} · 💬 1 comment</div><div style="font-size:12.5px;color:var(--mut);margin-bottom:12px">Giao cho: ${A(t.to,18)} <b style="color:var(--ink)">${P[t.to].n}</b> · 📅 ${t.dl}/2026</div>
+    <div class="sec" style="border:none;margin-top:0">Mô tả</div><div style="border:1px solid var(--ln);border-radius:7px;padding:9px 12px;font-size:13px;color:var(--txt);line-height:1.5">Kiểm tra tồn kho phụ tùng tại HEAD 1, đối chiếu Honda DMS. Ưu tiên: má phanh, nhông sên dĩa, dầu nhớt, bộ lọc gió.</div>
+    <div class="sec">Bình luận (1)</div><div style="display:flex;gap:8px;padding:6px 0">${A('tam',20)}<div><b style="font-size:12.5px;color:var(--ink)">${P.tam.n}</b><small style="font-size:11.5px;color:var(--mut);margin-left:6px">01/10</small><p style="font-size:12.5px;color:var(--txt);margin-top:3px">Em đã kiểm kho xong nhóm má phanh và nhông sên dĩa. Còn dầu nhớt sẽ xong trước thứ 6.</p></div></div></div>
+  <div class="rp"><div class="cap">TRẠNG THÁI</div><div style="display:flex;gap:6px;padding:4px 0;font-size:12.5px"><span style="width:70px;color:var(--mut)">Trạng thái</span><span class="pl" style="background:var(--bls);color:var(--bli)">● Open ▾</span></div><div style="display:flex;gap:6px;padding:4px 0;font-size:12.5px"><span style="width:70px;color:var(--mut)">Ưu tiên</span>● ${priN[t.pr]}</div>
+    <div class="cap">NHÂN SỰ</div><div style="display:flex;gap:6px;padding:4px 0;font-size:12.5px"><span style="width:70px;color:var(--mut)">Giao cho</span>${A(t.to,18)} ${P[t.to].n}</div><div style="display:flex;gap:6px;padding:4px 0;font-size:12.5px"><span style="width:70px;color:var(--mut)">Người tạo</span>${A('me',18)} ${P.me.n}</div>
+    <div class="cap">LỊCH TRÌNH</div><div style="display:flex;gap:6px;padding:4px 0;font-size:12.5px"><span style="width:70px;color:var(--mut)">Hạn chót</span>📅 ${t.dl}/2026</div><div style="display:flex;gap:6px;padding:4px 0;font-size:12.5px"><span style="width:70px;color:var(--mut)">Service</span><span style="color:var(--bl)">${t.svc}</span></div></div></div></div></div></div>`}
+
+// ====== HỒI 3: WORKFLOWS ======
+function h3s1(){const rows=JOBS.map(j=>{const sl=j.cur>=4?'[5/5] Hoàn tất':`[${j.cur+1}/5] ${STAGES[j.cur]}`;return `<tr><td><div class="jn"><div class="jm"><i style="background:${j.cur>=4?'var(--gn)':'var(--bl)'}"></i><code>${j.code}</code> ${j.wf}</div><b>${j.name}</b></div></td><td><div class="stg"><span class="sl ${j.cur>=4?'done':'prog'}">${sl}</span><div class="cv2">${cvr(j.cur)}</div></div></td><td></td><td><div class="who">${A(j.to,18)} ${P[j.to].n}</div></td><td>${j.dl}</td></tr>`}).join('');
+  return CH('/workflows/my-works')+`<div style="flex:1;display:flex;flex-direction:column">${TB('⚡','Quy trình')}<div class="ap">${wfSD('mw')}<div class="mn"><div class="hd"><b>Việc của tôi</b> › <span class="pls"><span class="on">Việc của tôi</span><span>Việc cần làm</span></span></div>
+  <div class="tbs"><span class="on">Giao cho tôi</span><span>Tôi đã tạo</span><span>Đang theo dõi</span><span class="rt"><span class="bt g">🔍 Tìm job…</span><span class="bt g">🔽 Lọc</span></span></div>
+  <div class="jt"><table><colgroup><col style="width:38%"><col style="width:22%"><col style="width:8%"><col style="width:20%"><col style="width:12%"></colgroup><tr><th>JOB</th><th>GIAI ĐOẠN</th><th>TAGS</th><th>GIAO CHO</th><th>HẠN</th></tr>${rows}</table></div></div></div></div>`}
+
+function h3s2(){const j=JOBS[0];
+  return CH('/workflows/my-works')+`<div style="flex:1;display:flex;flex-direction:column">${TB('⚡','Quy trình')}<div class="ap">${wfSD('mw')}<div class="mn" style="position:relative"><div class="hd"><b>Việc của tôi</b></div><div class="tbs"><span class="on">Giao cho tôi</span><span>Tôi đã tạo</span></div><div class="jt"><table><colgroup><col style="width:38%"><col style="width:22%"><col style="width:8%"><col style="width:20%"><col style="width:12%"></colgroup><tr><th>JOB</th><th>GIAI ĐOẠN</th><th>TAGS</th><th>GIAO CHO</th><th>HẠN</th></tr>${JOBS.slice(0,3).map(j2=>`<tr><td><div class="jn"><div class="jm"><i style="background:${j2.cur>=4?'var(--gn)':'var(--bl)'}"></i><code>${j2.code}</code></div><b>${j2.name}</b></div></td><td></td><td></td><td>${A(j2.to,16)}</td><td>${j2.dl}</td></tr>`).join('')}</table></div>
+  <div class="vl"></div><div class="dw"><div class="dh"><code>${j.code}</code> ${j.cur+1}/5 · ${STAGES[j.cur]} <span style="margin-left:auto">✕</span></div>
+  <div class="db"><div class="dl"><div class="wfn">${j.wf}</div><h2>${j.name}</h2><div class="btns"><span class="mn">▷ Chuyển bước</span><span class="mf">Đánh dấu thất bại</span></div>
+    <div class="kv"><span class="k">Người nhận</span><span class="v">${A(j.to,20)} ${P[j.to].n}</span></div><div class="kv"><span class="k">Người tạo</span><span class="v">${A('me',20)} ${P.me.n}</span></div><div class="kv"><span class="k">Hạn chót</span><span class="v">${j.dl}, 2026</span></div><div class="kv"><span class="k">SLA</span><span class="v">48h</span></div></div>
+  <div class="dr"><div class="stg">${STAGES.map((s,i)=>`<span class="${i<j.cur?'done':i===j.cur?'now':''}">${s.length<5?s:s.substring(0,4)+'…'}</span>`).join('')}</div><div style="font-size:11px;color:var(--mut);margin-bottom:10px">⏱ Ở giai đoạn này 2 ngày</div>
+    <div class="sec">Mô tả</div><p style="font-size:12px;color:var(--txt);line-height:1.5">Nhập 15 xe Vision 2027 cho HEAD 1. Đang chờ duyệt mua.</p>
+    <div class="sec">Bình luận</div><div style="border:1px solid var(--ln);border-radius:6px;padding:7px 10px;font-size:12px;color:var(--mut)">Viết bình luận…</div></div></div></div></div></div></div>`}
+
+function h3s3(){
+  const stI=STAGES.map((s,i)=>{const c=[['#ECFEFF','#0891B2'],['#FFF7ED','#D97706'],['var(--bls)','var(--bli)'],['var(--gns)','#15803D'],['var(--gns)','#15803D']];return `<div class="st"><i style="background:${c[i][0]};color:${c[i][1]}">${String(i+1).padStart(2,'0')}</i>${s}</div>`}).join('');
+  return CH('/workflows/nhap-hang/builder')+`<div style="flex:1;display:flex;flex-direction:column">${TB('⚡','Quy trình')}<div class="ap">${wfSD('wf')}<div class="mn"><div class="hd"><span style="display:inline-flex;align-items:center;gap:6px"><span style="width:20px;height:20px;border-radius:5px;background:var(--bls);display:inline-grid;place-items:center;font-size:8px;font-weight:700;color:var(--bli)">N</span><b>QT nhập hàng</b> ▾</span> › <span class="tbs" style="border:none;height:auto;padding:0;gap:0"><span>Jobs</span><span>Team</span><span class="on">Builder</span><span>Settings</span></span></div>
+  <div class="tbs" style="height:36px"><span class="on" style="height:36px">WORKFLOW</span><span style="height:36px">FORM</span><span style="height:36px">ASSIGNMENTS</span></div>
+  <div class="bld"><div class="bp"><div class="st"><i style="background:var(--bls);color:var(--bli)">▶</i>Start</div>${stI}<div class="st"><i style="background:var(--gns);color:var(--gn)">✓</i>Hoàn tất</div><div class="st"><i style="background:var(--rds);color:var(--rd)">✕</i>Thất bại</div></div>
+  <div class="canvas">
+    <div class="node" style="left:150px;top:20px;width:280px"><div class="nh"><i style="background:var(--bls);color:var(--bli)">▶</i><b>QT nhập hàng</b></div><div class="nb">Ai có thể khởi tạo quy trình</div></div>
+    <div class="wire" style="left:290px;top:90px;height:30px"></div>
+    <div class="node" style="left:150px;top:120px"><div class="nh"><i style="background:#ECFEFF;color:#0891B2">01</i><b>Đề nghị</b><em style="background:#ECFEFF;color:#0891B2">Việc</em></div><div class="nb">Trưởng HEAD tạo đề nghị nhập hàng</div></div>
+    <div class="wire" style="left:290px;top:186px;height:30px"></div>
+    <div class="node" style="left:150px;top:216px"><div class="nh"><i style="background:#FFF7ED;color:#D97706">02</i><b>Báo giá</b><em style="background:#FFF7ED;color:#D97706">Việc</em></div><div class="nb">Kế toán thu thập báo giá Honda VN</div></div>
+    <div class="wire" style="left:290px;top:282px;height:22px"></div>
+    <div class="diamond" style="left:284px;top:304px"></div>
+    <div class="wire" style="left:290px;top:316px;height:16px"></div>
+    <div class="branch ok" style="left:165px;top:336px">≤ 100TR → Cấp 1</div>
+    <div class="branch wn" style="left:370px;top:336px">> 100TR → Cấp 2</div>
+    <div class="wire" style="left:290px;top:364px;height:22px"></div>
+    <div class="node" style="left:150px;top:386px"><div class="nh"><i style="background:var(--bls);color:var(--bli)">03</i><b>Duyệt mua</b><em style="background:var(--bls);color:var(--bli)">Việc</em></div><div class="nb">Lãnh đạo phê duyệt theo giá trị</div></div>
+    <div class="wire" style="left:290px;top:452px;height:30px"></div>
+    <div class="node" style="left:150px;top:482px"><div class="nh"><i style="background:var(--gns);color:var(--gn)">04</i><b>Nhập kho</b><em style="background:var(--gns);color:var(--gn)">Việc</em></div><div class="nb">Kiểm đếm, nhập Honda DMS</div></div>
+    <div class="zoom"><span>−</span><span style="font-size:10px;font-weight:600">100%</span><span>+</span></div></div></div></div></div></div>`}
+
+// ====== HỒI 4: E-OFFICE ======
+function h4s1(){
+  return CH('/eoffice/home')+`<div style="flex:1;display:flex;flex-direction:column">${TB('📄','Văn phòng')}<div class="ap">${eoSD()}<div class="mn"><div class="eod">
+    <div class="wlc">Chào mừng quay lại</div><div class="sub">Những gì đang chờ bạn xử lý hôm nay.</div>
+    <div class="box"><div class="bh">VIỆC CẦN XỬ LÝ — 2 mục đang chờ</div>
+      <div class="sts"><div><span>Chờ xử lý</span><b>2</b></div><div><span>Việc cần làm</span><b>0</b></div><div><span>Chờ phê duyệt</span><b>1</b></div></div>
+      <div class="urg"><div class="ui"><b>TB chính sách giá phụ tùng Q4/2026</b><span>⚠ Khẩn · Xem xét và cho ý kiến</span></div><span class="bt" style="background:var(--rd);color:#fff;height:26px;font-size:11.5px;padding:0 10px;border-radius:5px">Xử lý ngay →</span></div>
+      <div class="urg" style="border-color:var(--ln);background:var(--bgs)"><div class="ui"><b>Biên bản họp giao ban tháng 9</b><span>Bình thường · Lấy ý kiến</span></div><span class="bt g" style="height:26px;font-size:11.5px;padding:0 10px">Xem →</span></div>
+    </div></div></div></div></div>`}
+
+function h4s2(){
+  const rows=DOCS.map(d=>`<tr><td><span class="tp ${d.tp==='nb'?'nb':d.tp==='di'?'di':'den'}">${tpN[d.tp]}</span></td><td style="font-family:ui-monospace,monospace;font-size:11.5px;color:var(--mut)">${d.num}</td><td style="max-width:260px"><b style="font-weight:500;color:var(--ink)">${d.name}</b></td><td><div class="ph"><i style="background:${d.phaseC}"></i>${d.phase}</div></td><td><span class="ur ${d.ur}">⚠ ${urN[d.ur]}</span></td><td>${A(d.by,18)} ${sn(P[d.by].n)}</td></tr>`).join('');
+  return CH('/eoffice/documents')+`<div style="flex:1;display:flex;flex-direction:column">${TB('📄','Văn phòng')}<div class="ap">${eoSD()}<div class="mn"><div class="hd"><b style="font-size:16px">Văn bản</b><span class="rt"><span class="bt g">🔍 Tìm</span><span class="bt g">🔽 Lọc</span><span class="bt p">+ Văn bản mới</span></span></div>
+  <div class="tbs"><span class="on">Của tôi</span><span>Tất cả</span><span>Đến</span><span>Đi</span><span>Nội bộ</span></div>
+  <div class="eot"><table><colgroup><col style="width:5%"><col style="width:14%"><col style="width:30%"><col style="width:13%"><col style="width:11%"><col style="width:15%"></colgroup><tr><th></th><th>SỐ</th><th>VĂN BẢN</th><th>GIAI ĐOẠN</th><th>MỨC KHẨN</th><th>PHỤ TRÁCH</th></tr>${rows}</table></div></div></div></div>`}
+
+function h4s3(){const d=DOCS[0];
+  return CH('/eoffice/'+d.num)+`<div style="flex:1;display:flex;flex-direction:column">${TB('📄','Văn phòng')}<div class="ap">${eoSD()}<div class="mn"><div class="hd"><span style="color:var(--mut)">← Quay lại</span> › Nội bộ › <b>${d.num}</b><span class="rt"><span class="bt g">↶ Lùi bước</span><span class="bt p">Chuyển bước →</span></span></div>
+  <div class="edt"><div class="el"><h2>${d.name}</h2><div class="chips"><span class="pl" style="background:var(--gns);color:var(--gn)">🏢 Nội bộ</span><span class="pl" style="background:var(--rds);color:var(--rd)">⚠ Khẩn</span></div>
+    <div class="aib"><div class="ail">✨ TÓM TẮT AI</div><p>Điều chỉnh giá phụ tùng Honda áp dụng từ 01/10/2026. Tăng TB 5-8% cho nhóm má phanh, nhông sên dĩa, dầu nhớt. Giá bán lẻ khuyến nghị cập nhật theo bảng đính kèm. Các HEAD cập nhật bảng giá trước 10/10.</p></div>
+    <div class="sec">CHI TIẾT</div><div class="kv"><span class="k">Số tham chiếu</span><span class="v">${d.num}</span></div><div class="kv"><span class="k">Loại</span><span class="v">Thông báo</span></div><div class="kv"><span class="k">Nơi nhận</span><span class="v">Tất cả HEAD</span></div><div class="kv"><span class="k">Hạn xử lý</span><span class="v" style="color:var(--rd)">05/10/2026</span></div>
+    <div class="sec">TỆP ĐÍNH KÈM</div><p style="color:var(--mut)">📎 Bang-gia-phu-tung-Q4-2026.xlsx</p></div>
+  <div class="er"><div class="cap">QUY TRÌNH · 3/5 hoàn thành</div>
+    <div class="steps"><span class="dot" style="background:var(--gn);color:#fff">✓</span><span class="line" style="background:var(--gn)"></span><span class="dot" style="background:var(--gn);color:#fff">✓</span><span class="line" style="background:var(--gn)"></span><span class="dot" style="background:var(--bl);color:#fff;box-shadow:0 0 0 3px rgba(37,99,235,.2)">3</span><span class="line"></span><span class="dot" style="background:var(--ln);color:var(--mut)">4</span><span class="line"></span><span class="dot" style="background:var(--ln);color:var(--mut)">5</span></div>
+    <div style="font-size:10.5px;color:var(--mut);margin-bottom:10px;text-align:center">Soạn ✓ → Góp ý ✓ → <b style="color:var(--bl)">Phê duyệt</b> → Ký → Phát hành</div>
+    <div class="acrd"><b>💬 Xem xét và cho ý kiến</b><span>GIAI ĐOẠN HIỆN TẠI · Bắt buộc</span></div>
+    <div class="cap">THÀNH PHẦN</div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;font-size:12.5px">${A('me',20)}<b style="font-weight:500;color:var(--ink)">${P.me.n}</b><span style="font-size:11px;color:var(--mut)">Người phụ trách</span></div>
+    <div class="cap">TRAO ĐỔI</div><div style="border:1px solid var(--ln);border-radius:6px;padding:7px 10px;font-size:12px;color:var(--mut)">Viết bình luận…</div></div></div></div></div></div>`}
+
+// ====== ANNOTATION DATA ======
+const AN=[null,null,
+  {n:'01',h:'Hồi 1 — Đề xuất',t:'Trang chủ: tất cả đề nghị từ mọi HEAD nằm ở một nơi',d:'Người dùng thấy ngay: đề nghị nào đang chờ, cái nào quá hạn, ai gửi, chuỗi duyệt đã đến đâu.',p:['Trạng thái màu','Chuỗi duyệt','Lọc theo tab']},
+  {n:'02',h:'Hồi 1 — Đề xuất',t:'Tạo đề xuất mới: chọn đúng service, luồng duyệt cấu hình sẵn',d:'Nhân viên chọn loại đề nghị → SLA và chuỗi người duyệt được gắn sẵn — không cần biết gửi cho ai.',p:['6 loại service','SLA tự động','Luồng duyệt sẵn']},
+  {n:'03',h:'Hồi 1 — Đề xuất',t:'Chi tiết: duyệt / từ chối / chuyển tiếp chỉ bằng 1 nút',d:'Ai đã duyệt, đang chờ ai, hạn còn bao lâu — bấm Phê duyệt là xong, không cần ký giấy.',p:['3 nút hành động','SLA countdown','Lịch sử duyệt']},
+  {n:'04',h:'Hồi 2 — Công việc',t:'Tổng quan: thấy ngay việc nào đang mở, việc nào quá hạn',d:'Giao việc rồi theo dõi tại đây. Mỗi dòng cho biết giao cho ai, hạn khi nào, mức ưu tiên.',p:['Ưu tiên Cao/Khẩn cấp','Assignee rõ ràng','Hạn chót hiện sẵn']},
+  {n:'05',h:'Hồi 2 — Công việc',t:'Board Kanban: nhìn tổng thể trạng thái cả hệ thống',d:'Open → In Progress → Completed. Thấy ngay việc kẹt, cảnh báo quá hạn nổi bật.',p:['5 cột trạng thái','Cảnh báo overdue','Kéo thả chuyển cột']},
+  {n:'06',h:'Hồi 2 — Công việc',t:'Chi tiết: mô tả, bình luận, và theo dõi tiến độ tại chỗ',d:'Trưởng HEAD cập nhật tiến độ ngay trong app, không cần báo cáo riêng.',p:['Comment trao đổi','DRI rõ ràng','Đầu ra / Đánh giá']},
+  {n:'07',h:'Hồi 3 — Quy trình',t:'Danh sách job nhập hàng: mỗi lô hàng đang ở giai đoạn nào',d:'Thanh chevron 5 giai đoạn — nhìn một cái biết hàng đang ở đâu.',p:['Chevron 5 stage','Trạng thái real-time','Job ID']},
+  {n:'08',h:'Hồi 3 — Quy trình',t:'Chi tiết job: chuyển bước, xem ai đang giữ, hạn ra sao',d:'Nút "Chuyển bước" đẩy quy trình đi tiếp — không cần gọi điện hối.',p:['Nút Chuyển bước','Thanh stage','SLA & deadline']},
+  {n:'09',h:'Hồi 3 — Quy trình',t:'Builder: thiết kế quy trình, phân nhánh theo giá trị đơn hàng',d:'Đơn ≤ 100tr cấp 1 duyệt, > 100tr cấp 2 duyệt. Kéo thả, không cần IT.',p:['Kéo thả trực quan','Phân nhánh điều kiện','Gán người theo stage']},
+  {n:'10',h:'Hồi 4 — Văn phòng',t:'Tổng quan: việc cần xử lý hôm nay, văn bản khẩn nổi bật',d:'Người dùng thấy ngay 2 văn bản đang chờ — 1 khẩn về chính sách giá Q4.',p:['Thẻ khẩn cấp','Thống kê nhanh','Xử lý ngay']},
+  {n:'11',h:'Hồi 4 — Văn phòng',t:'Bảng văn bản: loại, số, giai đoạn, mức khẩn — tập trung một nơi',d:'NB / Đến / Đi trong một bảng. Lọc theo loại, giai đoạn. Không tìm file trong Zalo.',p:['3 loại VB','Giai đoạn trực quan','SLA theo dõi']},
+  {n:'12',h:'Hồi 4 — Văn phòng',t:'Chi tiết: AI tóm tắt nội dung, quy trình 5 bước ký duyệt',d:'AI tóm tắt 3 dòng — Người dùng đọc nhanh. Thanh 5 bước cho biết đang ở đâu.',p:['✨ AI tóm tắt','Quy trình 5 bước','Ký số tích hợp']},
+];
+const SC=[sCover,sIntro,h1s1,h1s2,h1s3,h2s1,h2s2,h2s3,h3s1,h3s2,h3s3,h4s1,h4s2,h4s3];
+const cv=document.getElementById('cv'),scaler=document.getElementById('scaler'),stepi=document.getElementById('stepi');
+let cur=-1,tmr;
+function show(i){
+  i=Math.max(0,Math.min(SC.length-1,i));cur=i;
+  cv.innerHTML=SC[i]();
+  const a=AN[i];
+  if(a){cv.insertAdjacentHTML('beforeend',`<div class="anno"><div class="an">${a.n}</div><div class="ab"><div class="ah">${a.h}</div><div class="at">${a.t}</div><div class="ad">${a.d}</div><div class="ap2">${a.p.map(x=>'<span>'+x+'</span>').join('')}</div></div><div class="nav"><b onclick="event.stopPropagation();show(cur-1)">←</b><span>${i+1}/${SC.length}</span><b onclick="event.stopPropagation();show(cur+1)">→</b></div></div>`)}
+  stepi.textContent=a?'':`${i+1} / ${SC.length}`;stepi.classList.remove('fade');clearTimeout(tmr);tmr=setTimeout(()=>stepi.classList.add('fade'),1400);
+  try{history.replaceState(null,'','#s'+(i+1))}catch(e){}
+}
+function fit(){const col=scaler.parentElement.clientWidth;const s=Math.min(col/1440,(innerHeight-32)/880);scaler.style.width=(1440*s)+'px';scaler.style.height=(880*s)+'px';cv.style.transform=`scale(${s})`}
+addEventListener('resize',fit);new ResizeObserver(fit).observe(scaler.parentElement);fit();
+scaler.addEventListener('click',()=>show(cur+1));
+addEventListener('keydown',e=>{
+  if(['ArrowRight',' ','PageDown','Enter'].includes(e.key)){e.preventDefault();show(cur+1)}
+  else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();if(cur>0)show(cur-1)}
+  else if(e.key==='Home'){e.preventDefault();show(0)}
+});
+let q=null;try{q=new URLSearchParams(location.search).get('s')}catch(e){}
+q=q||(location.hash.match(/^#s(\d+)$/)||[])[1];
+show(q?+q-1:0);
+</script></body></html>
